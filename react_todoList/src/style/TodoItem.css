@@ -1,0 +1,25 @@
+.box {
+  color: brown;
+  max-width: 100%;
+  font-size: 40 px;
+
+  margin: 20px;
+  border: 2px solid rgb(233, 232, 232);
+}
+
+.tool {
+  font-size: 20px;
+  float: right;
+}
+
+.TodoItem-todo.false {
+  color: darkslategrey;
+  text-decoration: line-through;
+  /* display: none; */
+}
+
+.TodoItem-todo.true {
+  color: darkslategrey;
+  text-decoration: line-through;
+  display: inline;
+}
